@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>SPURTHI's GIF SEARCH</title>
+</head>
+<body>
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700' rel='stylesheet' type='text/css'>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="index.js"></script>
+
+<link rel="stylesheet" href="index.css">
+
+
+<h1 class="title">Spurthi's Gif Search</h1>
+
+<div class="input-wrapper empty">
+    <input type="text" class="query" id="query"/>
+    <div class="loader"></div>
+    <div class="clear"></div>
+</div>
+
+<div class="result">
+  <p class="no-result center">
+    Type whatever gif you want to see into the text box. 
+    Now you can see your golden retrievers and huskies whenever you want. :)
+    <br /> <br />
+  </p>
+  <img class="gifresult" id="gifresult" src="" alt="" />
+</div>
+
+<button class="gifbutton" onclick="randomButtonClick()">Get Another GIF</button>
+
+</body>
+</html>
