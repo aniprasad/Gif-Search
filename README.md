@@ -7,4 +7,4 @@ Keeping the above implementation as a base, the plan is to use Microsoft's Emoti
 
 <b> Demo </b>
 
-![Alt Text](https://github.com/aniprasad/Gif-Search/raw/master/gifs/demo.gif)
+![Alt Text](https://github.com/aniprasad/Gif-Search/raw/master/Gifs/demo.gif)
